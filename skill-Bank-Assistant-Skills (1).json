@@ -1,0 +1,2670 @@
+{
+  "intents": [
+    {
+      "intent": "appointment",
+      "examples": [
+        {
+          "text": "can you set appointment with retail?",
+          "mentions": [
+            {
+              "entity": "appointment_type",
+              "location": [
+                29,
+                35
+              ]
+            }
+          ]
+        },
+        {
+          "text": "i need an appointment"
+        },
+        {
+          "text": "i need an appointment to business",
+          "mentions": [
+            {
+              "entity": "appointment_type",
+              "location": [
+                25,
+                33
+              ]
+            }
+          ]
+        },
+        {
+          "text": "i want to ararnge a loan appointment",
+          "mentions": [
+            {
+              "entity": "appointment_type",
+              "location": [
+                20,
+                36
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I want to arrange"
+        },
+        {
+          "text": "I want to arrange a loan appointment",
+          "mentions": [
+            {
+              "entity": "appointment_type",
+              "location": [
+                20,
+                24
+              ]
+            }
+          ]
+        },
+        {
+          "text": "i want to arrange an appointment"
+        },
+        {
+          "text": "make an appointment"
+        },
+        {
+          "text": "please arrange an appointment"
+        }
+      ],
+      "description": "Client wants to arrange an appointment"
+    },
+    {
+      "intent": "contact",
+      "examples": [
+        {
+          "text": "contact insurance department",
+          "mentions": [
+            {
+              "entity": "department",
+              "location": [
+                8,
+                28
+              ]
+            }
+          ]
+        },
+        {
+          "text": "give me contact to loan department",
+          "mentions": [
+            {
+              "entity": "department",
+              "location": [
+                19,
+                34
+              ]
+            }
+          ]
+        },
+        {
+          "text": "who is responsible for loan",
+          "mentions": [
+            {
+              "entity": "department",
+              "location": [
+                23,
+                27
+              ]
+            }
+          ]
+        }
+      ],
+      "description": "Client wants to get a contact"
+    },
+    {
+      "intent": "describe",
+      "examples": [
+        {
+          "text": "can you describe withdraw?",
+          "mentions": [
+            {
+              "entity": "vocabulary",
+              "location": [
+                17,
+                25
+              ]
+            }
+          ]
+        },
+        {
+          "text": "can you explain deposit?",
+          "mentions": [
+            {
+              "entity": "vocabulary",
+              "location": [
+                16,
+                23
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Can you tell me what is ATM?",
+          "mentions": [
+            {
+              "entity": "vocabulary",
+              "location": [
+                24,
+                27
+              ]
+            }
+          ]
+        },
+        {
+          "text": "define Interest",
+          "mentions": [
+            {
+              "entity": "vocabulary",
+              "location": [
+                7,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Do you know what is interest?",
+          "mentions": [
+            {
+              "entity": "vocabulary",
+              "location": [
+                20,
+                28
+              ]
+            }
+          ]
+        },
+        {
+          "text": "explain account number",
+          "mentions": [
+            {
+              "entity": "vocabulary",
+              "location": [
+                8,
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "text": "explain ATM",
+          "mentions": [
+            {
+              "entity": "vocabulary",
+              "location": [
+                8,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Interest"
+        },
+        {
+          "text": "tell me about ATM",
+          "mentions": [
+            {
+              "entity": "vocabulary",
+              "location": [
+                14,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "tell me more about account number",
+          "mentions": [
+            {
+              "entity": "vocabulary",
+              "location": [
+                19,
+                33
+              ]
+            }
+          ]
+        },
+        {
+          "text": "what is account number",
+          "mentions": [
+            {
+              "entity": "vocabulary",
+              "location": [
+                8,
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "text": "what is account number?",
+          "mentions": [
+            {
+              "entity": "vocabulary",
+              "location": [
+                8,
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "text": "what is interest",
+          "mentions": [
+            {
+              "entity": "vocabulary",
+              "location": [
+                8,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "text": "what is interest?",
+          "mentions": [
+            {
+              "entity": "vocabulary",
+              "location": [
+                8,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "text": "what is overdrawn",
+          "mentions": [
+            {
+              "entity": "vocabulary",
+              "location": [
+                8,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "what is transaction?",
+          "mentions": [
+            {
+              "entity": "vocabulary",
+              "location": [
+                8,
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "text": "what mean transasctions?",
+          "mentions": [
+            {
+              "entity": "vocabulary",
+              "location": [
+                10,
+                23
+              ]
+            }
+          ]
+        }
+      ],
+      "description": "Describes the meaning of words"
+    },
+    {
+      "intent": "goodbye",
+      "examples": [
+        {
+          "text": "bye"
+        },
+        {
+          "text": "have a nice day"
+        }
+      ],
+      "description": "Clients wants to end the conversation"
+    },
+    {
+      "intent": "greetings",
+      "examples": [
+        {
+          "text": "good afternon"
+        },
+        {
+          "text": "good morning"
+        },
+        {
+          "text": "greetings"
+        },
+        {
+          "text": "hello"
+        },
+        {
+          "text": "hi"
+        },
+        {
+          "text": "how are you"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "help",
+      "examples": [
+        {
+          "text": "can you help me?"
+        },
+        {
+          "text": "help"
+        },
+        {
+          "text": "help me"
+        },
+        {
+          "text": "i need help"
+        },
+        {
+          "text": "press f"
+        },
+        {
+          "text": "what can you do?"
+        }
+      ],
+      "description": "Client wants help"
+    },
+    {
+      "intent": "opening_hours",
+      "examples": [
+        {
+          "text": "when are the opening hours?"
+        },
+        {
+          "text": "when can i come?"
+        },
+        {
+          "text": "when can i visit you?"
+        },
+        {
+          "text": "when is open?"
+        }
+      ],
+      "description": "Client wants to know opening hours"
+    },
+    {
+      "intent": "send_money",
+      "examples": [
+        {
+          "text": "can i send money"
+        },
+        {
+          "text": "I would like to make a payment"
+        },
+        {
+          "text": "I would like to send money"
+        },
+        {
+          "text": "I would like to transfer money"
+        },
+        {
+          "text": "send 500 to Brother",
+          "mentions": [
+            {
+              "entity": "amount",
+              "location": [
+                5,
+                8
+              ]
+            },
+            {
+              "entity": "reciever",
+              "location": [
+                12,
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "text": "send 658 to Karlos",
+          "mentions": [
+            {
+              "entity": "reciever",
+              "location": [
+                12,
+                18
+              ]
+            }
+          ]
+        },
+        {
+          "text": "send money"
+        }
+      ],
+      "description": "Client wants to transfer money"
+    },
+    {
+      "intent": "set_amount",
+      "examples": [
+        {
+          "text": "0.24",
+          "mentions": [
+            {
+              "entity": "amount",
+              "location": [
+                0,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "text": "0.40",
+          "mentions": [
+            {
+              "entity": "amount",
+              "location": [
+                0,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "text": "1",
+          "mentions": [
+            {
+              "entity": "amount",
+              "location": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "text": "10",
+          "mentions": [
+            {
+              "entity": "amount",
+              "location": [
+                0,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "text": "10000",
+          "mentions": [
+            {
+              "entity": "amount",
+              "location": [
+                0,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "text": "10.4",
+          "mentions": [
+            {
+              "entity": "amount",
+              "location": [
+                0,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "text": "123456",
+          "mentions": [
+            {
+              "entity": "amount",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "1234657",
+          "mentions": [
+            {
+              "entity": "amount",
+              "location": [
+                0,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "text": "15.5",
+          "mentions": [
+            {
+              "entity": "amount",
+              "location": [
+                0,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "text": "200",
+          "mentions": [
+            {
+              "entity": "amount",
+              "location": [
+                0,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "text": "2145",
+          "mentions": [
+            {
+              "entity": "amount",
+              "location": [
+                0,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "text": "321",
+          "mentions": [
+            {
+              "entity": "amount",
+              "location": [
+                0,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "text": "57131",
+          "mentions": [
+            {
+              "entity": "amount",
+              "location": [
+                0,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "text": "8041.4",
+          "mentions": [
+            {
+              "entity": "amount",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "8461",
+          "mentions": [
+            {
+              "entity": "amount",
+              "location": [
+                0,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "text": "874.9",
+          "mentions": [
+            {
+              "entity": "amount",
+              "location": [
+                0,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "text": "90.8",
+          "mentions": [
+            {
+              "entity": "amount",
+              "location": [
+                0,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "text": "98514",
+          "mentions": [
+            {
+              "entity": "amount",
+              "location": [
+                0,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "text": "set amount 1000"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "tell_me",
+      "examples": [
+        {
+          "text": "make a fun",
+          "mentions": [
+            {
+              "entity": "joke",
+              "location": [
+                7,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "text": "tell me a joke",
+          "mentions": [
+            {
+              "entity": "joke",
+              "location": [
+                10,
+                14
+              ]
+            }
+          ]
+        }
+      ],
+      "description": "Chitchat"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "amount",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "0.24",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "0.40",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "10",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "10000",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "10000.7",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "10.4",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "10.5",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "123456",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1234657",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1254.4",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "151.7",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "15.5",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "200",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2145",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "321",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "500",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "57131",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "8041.4",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "8461",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "874.9",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "87.5",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "90.8",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "98514",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "appointment_type",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "account",
+          "synonyms": [
+            "bank account"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "business",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "loan",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "loan appointment",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "retail",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "time deposit propensity",
+          "synonyms": [
+            "timedepositpropensity"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "department",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "business",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "insurance",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "insurance department",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "investment",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "loan",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "loan department",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "retail",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "joke",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "fun",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "joke",
+          "synonyms": [
+            "fun"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "reciever",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Brother",
+          "synonyms": [
+            "bro"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Father",
+          "synonyms": [
+            "Dad",
+            "daddy"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Friend Karel",
+          "synonyms": [
+            "Karlito",
+            "Karlos",
+            "Terminator"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Karlos",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "reciever",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "response",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "no",
+          "synonyms": [
+            "n",
+            "negative",
+            "nein",
+            "nop",
+            "nope"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": [
+            "k",
+            "ok",
+            "positive",
+            "right",
+            "y",
+            "yeaaa"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-currency",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "vocabulary",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Account number",
+          "synonyms": [
+            "(Account number)",
+            "account number",
+            "Account number)"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ATM",
+          "synonyms": [
+            "atm"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Interest",
+          "synonyms": [
+            "interest"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Overdrawn",
+          "synonyms": [
+            "overdrawn"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Transaction",
+          "synonyms": [
+            "transaction"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "withdraw",
+          "synonyms": [
+            "Withdraw"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1607095526077"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_4_1607531841397",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1607289236117",
+      "context": {
+        "reciever": "@reciever"
+      },
+      "conditions": "@reciever",
+      "event_name": "input",
+      "dialog_node": "handler_10_1607289236137"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1607458462054",
+      "context": {
+        "appointment_type__time": "@appointment_type:(time deposit propensity)"
+      },
+      "conditions": "@appointment_type:(time deposit propensity)",
+      "event_name": "input",
+      "dialog_node": "handler_11_1607458462054"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "How much do you want to send?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_5_1607289365049",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1607289365049",
+      "previous_sibling": "handler_5_1607289365049"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You don't have this person on your list. On your list are: Brother, Father, Friend Karel"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_4_1607289236117",
+      "event_name": "nomatch",
+      "dialog_node": "handler_1_1607289761928",
+      "previous_sibling": "handler_8_1607289236137"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "What type of appointment do you want to arrange?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_10_1607458462054",
+      "event_name": "focus",
+      "dialog_node": "handler_12_1607458462054",
+      "previous_sibling": "handler_11_1607458462054"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry, we don't do that here."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_10_1607458462054",
+      "conditions": "@appointment_type:(time deposit propensity)",
+      "event_name": "filled",
+      "dialog_node": "handler_13_1607458462054",
+      "previous_sibling": "handler_12_1607458462054"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1607014350246",
+      "context": {
+        "appointment_type__time": "@appointment_type:(time deposit propensity)"
+      },
+      "conditions": "@appointment_type:(time deposit propensity)",
+      "event_name": "input",
+      "dialog_node": "handler_2_1607014350249"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1607289365049",
+      "context": {
+        "amount": "@sys-currency"
+      },
+      "conditions": "@sys-currency",
+      "event_name": "input",
+      "dialog_node": "handler_5_1607289365049"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1607016286061",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1607016286101",
+      "previous_sibling": "handler_7_1607016286101"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_8_1607016286061",
+      "event_name": "input",
+      "dialog_node": "handler_7_1607016286101"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Of course, to whom would you like to send a money? On your list are: Brother, Father, Friend Karel"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_4_1607289236117",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1607289236137",
+      "previous_sibling": "handler_10_1607289236137"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "What type of appointment do you want to arrange?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_7_1607014350246",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1607014350249",
+      "previous_sibling": "handler_2_1607014350249"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry, we don't do that here."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_7_1607014350246",
+      "conditions": "@appointment_type:(time deposit propensity)",
+      "event_name": "filled",
+      "dialog_node": "handler_9_1607014786037",
+      "previous_sibling": "handler_9_1607014350249"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What can I help you with?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1607016223750",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1607095526077"
+      },
+      "conditions": "@response:yes",
+      "dialog_node": "node_10_1607016652095",
+      "previous_sibling": "node_1_1607016648949"
+    },
+    {
+      "type": "standard",
+      "title": "Help",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here are some examples of what you can use:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Appointment",
+                "value": {
+                  "input": {
+                    "text": "appointment"
+                  }
+                }
+              },
+              {
+                "label": "Contact",
+                "value": {
+                  "input": {
+                    "text": "contact"
+                  }
+                }
+              },
+              {
+                "label": "Opening Hours",
+                "value": {
+                  "input": {
+                    "text": "opening_hours"
+                  }
+                }
+              },
+              {
+                "label": "Banking terms",
+                "value": {
+                  "input": {
+                    "text": "describe"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          },
+          {
+            "values": [
+              {
+                "text": "Or you can send money to somebody from your list."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#help",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_10_1607095526077",
+      "previous_sibling": "node_9_1607459073008"
+    },
+    {
+      "type": "standard",
+      "title": "Describe + vocabulary",
+      "context": {},
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#describe && @vocabulary",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_10_1607110495591",
+      "previous_sibling": "node_7_1607093480258"
+    },
+    {
+      "type": "standard",
+      "parent": "node_10_1607110495591",
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "@vocabulary || anything_else || #describe",
+      "dialog_node": "node_10_1607443348060"
+    },
+    {
+      "type": "standard",
+      "parent": "node_9_1607016223750",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1607015849189"
+      },
+      "conditions": "@response:no",
+      "dialog_node": "node_1_1607016648949"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<a href='https://www.cbsl.gov.lk/en/about/organisational-structure/principal-officers'>Kamil</a> is responsible for insurance department."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1607524590440",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1607016223750"
+      },
+      "conditions": "@department:insurance",
+      "dialog_node": "node_1_1607094804950",
+      "previous_sibling": "node_3_1607094912767"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Automated teller machine/Cash machine – A device that gives money and can be used to do other account transactions."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1607418387013",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1607016223750"
+      },
+      "conditions": "@vocabulary:ATM",
+      "dialog_node": "node_1_1607108834733"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The money that needs to be paid each month for borrowing money from the bank, usually a percentage of the total."
+              },
+              {
+                "text": "The money the bank pays its customers for depositing money with them, usually a percentage of the total."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_6_1607418387013",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1607016223750"
+      },
+      "conditions": "@vocabulary:Interest",
+      "dialog_node": "node_1_1607109095713",
+      "previous_sibling": "node_5_1607108974316"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry, I don't know this word. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Here is a list of terms I know:",
+            "options": [
+              {
+                "label": "ATM",
+                "value": {
+                  "input": {
+                    "text": "ATM"
+                  }
+                }
+              },
+              {
+                "label": "Withdraw",
+                "value": {
+                  "input": {
+                    "text": "withdraw"
+                  }
+                }
+              },
+              {
+                "label": "Overdrawn",
+                "value": {
+                  "input": {
+                    "text": "Overdrawn"
+                  }
+                }
+              },
+              {
+                "label": "Interest",
+                "value": {
+                  "input": {
+                    "text": "Interest"
+                  }
+                }
+              },
+              {
+                "label": "Account number",
+                "value": {
+                  "input": {
+                    "text": "Account number"
+                  }
+                }
+              },
+              {
+                "label": "Transaction",
+                "value": {
+                  "input": {
+                    "text": "Transaction"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1607443348060",
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_10_1607443348060"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_1_1607421982637",
+      "previous_sibling": "node_6_1607418387013"
+    },
+    {
+      "type": "standard",
+      "title": "copy1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<a href='https://www.cbsl.gov.lk/en/about/organisational-structure/principal-officers'>Jarda</a> is responsible for loan department."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1607458192336",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1607016223750"
+      },
+      "conditions": "@department:loan ||   @department:(loan department)",
+      "dialog_node": "node_1_1607458218054"
+    },
+    {
+      "type": "standard",
+      "title": "copy2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry, I don't know about this department."
+              },
+              {
+                "text": "Here are examples of those I know: Investment, retail, business, ...."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_7_1607093480258",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1607093480258"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_1_1607524159746",
+      "previous_sibling": "node_4_1607524590440"
+    },
+    {
+      "type": "standard",
+      "title": "@response:no",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1607289223399",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1607016223750"
+      },
+      "conditions": "@response:no",
+      "dialog_node": "node_17_1607290860127",
+      "previous_sibling": "node_8_1607290751250"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<a href='https://www.cbsl.gov.lk/en/about/organisational-structure/principal-officers'>Milosh</a> is responsible for retail department."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1607524590440",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1607016223750"
+      },
+      "conditions": "@department:retail",
+      "dialog_node": "node_2_1607094919156"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "To take money out of an account."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1607418387013",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1607016223750"
+      },
+      "conditions": "@vocabulary:withdraw",
+      "dialog_node": "node_2_1607108968865",
+      "previous_sibling": "node_1_1607108834733"
+    },
+    {
+      "type": "standard",
+      "title": "copy1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<a href='https://www.cbsl.gov.lk/en/about/organisational-structure/principal-officers'>Kamil</a> is responsible for insurance department."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1607458192336",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1607016223750"
+      },
+      "conditions": "@department:insurance",
+      "dialog_node": "node_2_1607458366686",
+      "previous_sibling": "node_1_1607458218054"
+    },
+    {
+      "type": "standard",
+      "title": "@appointment_type:account",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You can create an account next week in Prague at 10 AM"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1607014159981",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1607016223750"
+      },
+      "conditions": "@appointment_type:account",
+      "dialog_node": "node_3_1607015331200",
+      "previous_sibling": "node_4_1607015322359"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<a href='https://www.cbsl.gov.lk/en/about/organisational-structure/principal-officers'>Juraj</a> is responsible for business department."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1607524590440",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1607016223750"
+      },
+      "conditions": "@department:business",
+      "dialog_node": "node_3_1607094912767",
+      "previous_sibling": "node_8_1607094916142"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": " An unique number that is used to identify a bank account."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1607418387013",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1607016223750"
+      },
+      "conditions": "@vocabulary:(Account number)",
+      "dialog_node": "node_3_1607108964378",
+      "previous_sibling": "node_1_1607109095713"
+    },
+    {
+      "type": "standard",
+      "title": "copy1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<a href='https://www.cbsl.gov.lk/en/about/organisational-structure/principal-officers'>Juraj</a> is responsible for business department."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1607458192336",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1607016223750"
+      },
+      "conditions": "@department:business",
+      "dialog_node": "node_3_1607458379187",
+      "previous_sibling": "node_2_1607458366686"
+    },
+    {
+      "type": "standard",
+      "title": "@appointment_type:(time deposit propensity)",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You can get a Time deposit tomorrow in Prague at 11 AM."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1607014159981",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1607016223750"
+      },
+      "conditions": "@appointment_type:(time deposit propensity)",
+      "dialog_node": "node_4_1607015322359",
+      "previous_sibling": "node_7_1607015247538"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Any situation where money is deposited or withdrawn from an account."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1607418387013",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1607016223750"
+      },
+      "conditions": "@vocabulary:Transaction",
+      "dialog_node": "node_4_1607108971026",
+      "previous_sibling": "node_2_1607108968865"
+    },
+    {
+      "type": "frame",
+      "title": "Tansfer money",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "So you want to send $amount $ to $reciever, right?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#send_money",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1607289223399",
+      "previous_sibling": "node_8_1607013563705"
+    },
+    {
+      "type": "standard",
+      "title": "copy1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<a href='https://www.cbsl.gov.lk/en/about/organisational-structure/principal-officers'>Bohdan</a> is responsible for investment department."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1607458192336",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1607016223750"
+      },
+      "conditions": "@department:investment",
+      "dialog_node": "node_4_1607458401955",
+      "previous_sibling": "node_3_1607458379187"
+    },
+    {
+      "type": "standard",
+      "parent": "node_7_1607093480258",
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "@department",
+      "dialog_node": "node_4_1607524590440"
+    },
+    {
+      "type": "standard",
+      "title": "Chitchat",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I shouldn't do it because I'm supposed to be serious ... but if you don't tell anyone ..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "I’d make a COVID joke.\nBut it would be tasteless."
+              },
+              {
+                "text": "I used to be a banker...\nBut I lost interest"
+              },
+              {
+                "text": "Guys, don't install adblock!\nI did, and now the hot singles in my area don't want to meet me any more."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1607016223750"
+      },
+      "conditions": "#tell_me && @joke",
+      "dialog_node": "node_4_1607531841397",
+      "previous_sibling": "node_6_1607015849189"
+    },
+    {
+      "type": "standard",
+      "title": "Appointment",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What type of appointment do you want to arrange?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#appointment",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1607014159981",
+      "previous_sibling": "node_6_1607458462038"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "To have used more money than there is in the account so that money is owed to the bank."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1607418387013",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1607016223750"
+      },
+      "conditions": "@vocabulary:Overdrawn",
+      "dialog_node": "node_5_1607108974316",
+      "previous_sibling": "node_4_1607108971026"
+    },
+    {
+      "type": "standard",
+      "title": "Describe",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What word do you want to explain?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_10_1607443348060"
+      },
+      "conditions": "#describe",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1607421865937",
+      "previous_sibling": "node_10_1607110495591"
+    },
+    {
+      "type": "standard",
+      "title": "copy1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<a href='https://www.cbsl.gov.lk/en/about/organisational-structure/principal-officers'>Milosh</a> is responsible for retail department."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1607458192336",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1607016223750"
+      },
+      "conditions": "@department:retail",
+      "dialog_node": "node_5_1607458414960",
+      "previous_sibling": "node_4_1607458401955"
+    },
+    {
+      "type": "standard",
+      "title": "Goodbye",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "My pleasure!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#goodbye",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1607015849189",
+      "previous_sibling": "node_4_1607289223399"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<a href='https://www.cbsl.gov.lk/en/about/organisational-structure/principal-officers'>Jarda</a> is responsible for loan department."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1607524590440",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1607016223750"
+      },
+      "conditions": "@department:loan || @department:(loan department)",
+      "dialog_node": "node_6_1607094097068",
+      "previous_sibling": "node_1_1607094804950"
+    },
+    {
+      "type": "standard",
+      "parent": "node_10_1607443348060",
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "@vocabulary:ATM || @vocabulary:withdraw || @vocabulary:Transaction || @vocabulary:Overdrawn || @vocabulary:Interest || @vocabulary:(Account number)",
+      "dialog_node": "node_6_1607418387013"
+    },
+    {
+      "type": "standard",
+      "title": "Appointment + type",
+      "output": {
+        "generic": []
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#appointment && @appointment_type",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1607458462038",
+      "previous_sibling": "node_9_1607016223750"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You can get a loan tomorrow in Prague at 5 AM"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1607014159981",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1607016223750"
+      },
+      "conditions": "@appointment_type:loan",
+      "dialog_node": "node_7_1607015247538"
+    },
+    {
+      "type": "standard",
+      "title": "Contact",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What department are you looking for?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#contact",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_7_1607093480258",
+      "previous_sibling": "node_9_1607458192336"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You can get a loan tomorrow in Prague at 5 AM"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1607458462038",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1607016223750"
+      },
+      "conditions": "@appointment_type:loan",
+      "dialog_node": "node_7_1607458462054"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry, we don't offer this product. Here are list of those we offer: Loan, Time deposit propensity, Account."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1607014159981",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1607014159981"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_7_1607525084496",
+      "previous_sibling": "node_3_1607015331200"
+    },
+    {
+      "type": "standard",
+      "title": "Opening hours",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "MO 9am - 5pm"
+              },
+              {
+                "text": "TU 9am - 5pm"
+              },
+              {
+                "text": "WE 9am - 5pm"
+              },
+              {
+                "text": "TH 9am - 5pm"
+              },
+              {
+                "text": "FR 9am - 5pm"
+              },
+              {
+                "text": "SA 9am - 2pm"
+              },
+              {
+                "text": "SU 9am - 2pm"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1607016223750"
+      },
+      "conditions": "#opening_hours",
+      "dialog_node": "node_8_1607013563705",
+      "previous_sibling": "node_5_1607421865937"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<a href='https://www.cbsl.gov.lk/en/about/organisational-structure/principal-officers'>Bohdan</a> is responsible for investment department."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1607524590440",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1607016223750"
+      },
+      "conditions": "@department:investment",
+      "dialog_node": "node_8_1607094916142",
+      "previous_sibling": "node_2_1607094919156"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$amount $ was sent to the $reciever 's account."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1607289223399",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1607016223750"
+      },
+      "conditions": "@response:yes",
+      "dialog_node": "node_8_1607290751250"
+    },
+    {
+      "type": "standard",
+      "title": "@appointment_type:(time deposit propensity)",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You can get a Time deposit tomorrow in Prague at 11 AM"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1607458462038",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1607016223750"
+      },
+      "conditions": "@appointment_type:(time deposit propensity)",
+      "dialog_node": "node_8_1607458462054",
+      "previous_sibling": "node_7_1607458462054"
+    },
+    {
+      "type": "standard",
+      "title": "Recall",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "amount": null,
+        "reciever": null
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_9_1607016223750",
+      "previous_sibling": "node_10_1607095526077"
+    },
+    {
+      "type": "standard",
+      "title": "Contact + department",
+      "output": {
+        "generic": []
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#contact && @department",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_9_1607458192336",
+      "previous_sibling": "node_5_1607014159981"
+    },
+    {
+      "type": "standard",
+      "title": "@appointment_type:account",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You can create an account next week in Prague at 10 AM"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1607458462038",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1607016223750"
+      },
+      "conditions": "@appointment_type:account",
+      "dialog_node": "node_9_1607458462054",
+      "previous_sibling": "node_8_1607458462054"
+    },
+    {
+      "type": "standard",
+      "title": "Greetings",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi, I am your banking assistant and I can do simple tasks. "
+              },
+              {
+                "text": "I will help you explain some terms, make an appointment, inform you about opening hours and get you a contact for a certain department."
+              },
+              {
+                "text": "Some of my functions: Arranging a meeting, Get a number for some department, Send money to another account and can explain some terms."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "If you want to know my functions, type help."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#greetings",
+      "dialog_node": "node_9_1607459073008",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1607458462038",
+      "disabled": true,
+      "dialog_node": "response_14_1607458462054",
+      "previous_sibling": "node_9_1607458462054"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Welcome",
+      "disabled": true,
+      "dialog_node": "response_4_1607013601928"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1607016223750",
+      "disabled": true,
+      "dialog_node": "response_5_1607016274049",
+      "previous_sibling": "slot_8_1607016286061"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1607014159981",
+      "disabled": true,
+      "dialog_node": "response_8_1607015218377",
+      "previous_sibling": "node_7_1607525084496"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Anything else",
+      "disabled": true,
+      "conditions": "",
+      "dialog_node": "response_8_1607286074693"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_6_1607458462038",
+      "variable": "$appointment_type__time",
+      "dialog_node": "slot_10_1607458462054",
+      "previous_sibling": "response_14_1607458462054"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_4_1607289223399",
+      "variable": "$reciever",
+      "dialog_node": "slot_4_1607289236117",
+      "previous_sibling": "node_17_1607290860127"
+    },
+    {
+      "type": "slot",
+      "parent": "node_4_1607289223399",
+      "variable": "$amount",
+      "dialog_node": "slot_5_1607289365049",
+      "previous_sibling": "slot_4_1607289236117"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_5_1607014159981",
+      "variable": "$appointment_type__time",
+      "dialog_node": "slot_7_1607014350246",
+      "previous_sibling": "response_8_1607015218377"
+    },
+    {
+      "type": "slot",
+      "parent": "node_9_1607016223750",
+      "dialog_node": "slot_8_1607016286061",
+      "previous_sibling": "node_10_1607016652095"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello, I am your bank assistant. I can help you with common ask about banking."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "I will help you explain some terms, make an appointment, inform you about opening hours and get you a contact for a certain department."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "Type help to see all of my functions."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [
+    {
+      "text": "account number"
+    },
+    {
+      "text": "atm"
+    },
+    {
+      "text": "i like that"
+    },
+    {
+      "text": "Interest"
+    },
+    {
+      "text": "no"
+    },
+    {
+      "text": "overdrawn"
+    },
+    {
+      "text": "short"
+    },
+    {
+      "text": "transaction"
+    },
+    {
+      "text": "wiki"
+    },
+    {
+      "text": "withdraw"
+    }
+  ],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "Bank Assistant Skills",
+  "language": "en",
+  "description": ""
+}
